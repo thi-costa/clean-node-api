@@ -12,6 +12,8 @@
         // Utilizado para garantir que o import vai funcionar (compatibiliza com os que ainda utilizam o CommonJS e precisam do require)
         "esModuleInterop": true,
         // Permite arquivos de configuração no formato javascript
-        "allowJs": true
+        "allowJs": true,
+        
+        "strictNullChecks": true
     }
 }
