@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        // Especifica diretório onde ficará o código javascript compilado
+        "outDir": "./dist",
+
+        // Gerar javascript com o commonjs, versão que os browsers entendem
+        "module": "commonjs",
+
+        // Especificar versão especifica do EcmaScript que se deseja gerar o javascript: (funcionalidades existentes) https://node.green/#ES2019
+        "target": "es2019",
+
+        // Utilizado para garantir que o import vai funcionar (compatibiliza com os que ainda utilizam o CommonJS e precisam do require)
+        "esModuleInterop": true,
+        // Permite arquivos de configuração no formato javascript
+        "allowJs": true
+    }
+}
